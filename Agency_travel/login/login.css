@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Poppins&display=swap');
+
+* {
+    font-family: 'lato', sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 10%;
+    margin-left: 10%;
+    gap: 5px;
+}
+
+.ipt {
+    border: solid 2px black;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.753);
+    align-content: center;
+    text-align: center;
+}
+
+button {
+    border-radius: 20px;
+    height: 40px;
+    border: solid 2px black;
+    background-color: rgba(0, 128, 0, 0.582);
+    transition: 0.250 ease-in;
+}
+
+button:hover {
+    background-color: tomato;
+}
+
+.div1 {
+    margin-top: 10px;
+}
+
+.caixinha {
+    border: solid 2px black;
+}
+
+.link {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}

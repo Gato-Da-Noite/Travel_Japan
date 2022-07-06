@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Poppins&display=swap');
+
+* {
+    font-family: 'lato', sans-serif;
+    color: black;
+}
+
+.main-pkg {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 40%;
+    text-shadow: 0.1em 0.1em 0.2em whitesmoke;
+    cursor: pointer;
+}
+
+.box {
+    border: solid 2px white;
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+    margin-left: 4%;
+    margin-top: 4%;
+    background-image: url("/Agency_travel/packages/assets/osaka.jpg");
+    text-align: center;
+    background-size: cover;
+}
+
+.box2 {
+    border: solid 2px white;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    margin-left: 4%;
+    margin-top: 4%;
+    background-image: url("/Agency_travel/packages/assets/tokyo.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.box3 {
+    border: solid 2px white;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    margin-left: 4%;
+    margin-top: 4%;
+    background-image: url("/Agency_travel/packages/assets/koube.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.box4 {
+    border: solid 2px white;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    margin-left: 4%;
+    margin-top: 4%;
+    background-image: url("/Agency_travel/packages/assets/kyoto.jpeg");
+    background-size: cover;
+    text-align: center;
+}
+
+.box5 {
+    border: solid 2px white;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    margin-left: 4%;
+    margin-top: 4%;
+    background-image: url("/Agency_travel/packages/assets/yokohama.jpg");
+    background-size: cover;
+    text-align: center;
+}

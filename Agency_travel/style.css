@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Poppins&display=swap');
+
+.header {
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    list-style: none;
+}
+
+a {   
+    color: black;
+    text-decoration: none;
+    outline: none;
+}
+
+body {
+    background-image: url("onna.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}    
+
+.lg-t {
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 6%;
+    font-family: 'Lato', sans-serif;
+    margin-left: 4%;
+    justify-content: flex-start;
+}
+
+.t1 {
+    font-size: 70px;
+    margin-bottom: -5px;
+}
+
+.btns {
+    font-family: 'lato', sans-serif;
+    display: flex;
+    gap: 30px;
+}
+
+.btn {
+    cursor: pointer;
+    color: black;
+    padding: 20px;
+    border: solid 2px white;
+    border-radius: 40px;
+    background-color: transparent;
+}
+
+.btn:hover {
+    background-color: tomato;
+    transition: 0.5s ease;
+}
